@@ -26,19 +26,18 @@ En esta práctica de la asignatura [Fundamentos del Desarrollo de Videojuegos](h
 Para comenzar, crearemos un proyecto de Unity, en el cual se incluyan 2 Objetos en 3D, para ello accederemos al Unity Editor, y crearemos un nuevo proyecto en 3D, y en cual, cuando se inicialize, crearemos dos objetos en 3D.
 
 [x] Crear un proyecto Unity que incluya 2 Objetos en 3D. 
-![proyecto con dos objetos](./Media/proyecto%20con%202%20objetos.png)
-
+![proyecto_con_2_objetos](./Media/proyecto_con_2_objetos.png)
 
 Luego, tenemos que crear un repositorio en Github y desde una consola en la carpeta del proyecto, debemos enlazar el proyecto local de Unity con el repositorio creado en Github.
 
 [x] Crear un repositorio Github para subir el proyecto Unity. 
-![repositorio inicial en Github](./Media/repositorio%20inicial%20en%20github.png)
+![repositorio_inicial_en_github](./Media/repositorio_inicial_en_github.png)
 
 Desde este punto podemos subir los cambios que se hayan realziado en el proyecto local de Unity hacia el repositorio en la nube de Github.
 
 Por ello, probaremos a añadir un material, la cual en este caso la hemos asignado a la esfera creada.
 
-![material bola de asero](./Media/material%20bola%20de%20asero.png)
+![material_bola_de_asero](./Media/material_bola_de_asero.png)
 
 Ahora, lo que queremos probar sera a meter archivos con un gran tamaño, en nuestro caso, con ficheros mayores a 100Mb nos vale.
 
@@ -46,7 +45,7 @@ Para ello, desde la carpeta raiz del proyecto, incluiremos un fichero de gran ta
 
 Cuando lo intentamos realizar, desde la consola nos salta este error.
 
-![error](./Media/git%20push%20explota.png)
+![git_push_explota](./Media/git_push_explota.png)
 
 Precisamente, en la captura podemos ver como nos tira errores señalando el problema con el volumen del fichero, y como precisamente nos recomienda la herramienta de la cual se trata en esta práctica: **GIT LFS**
 
@@ -86,7 +85,7 @@ git reset <ID del commit previo al commit con fichero grandes>
 Con esto volvemos al commit previo al que guarda los ficheros grandes, y desde ahi, realizamos el commit y el push de nuevo con los ficheros de gran tamaño ya trackeados por GIT LFS. En caso correcto, asi se debe ver cuando se realiza este proceso.
 
 [x] Instalar la herramienta GIT LFS para el proyecto anterior.
-![ya funca](./Media/git%20push%20ya%20no%20explota.png)
+![git_push_ya_no_explota](./Media/git_push_ya_no_explota.png)
 
 Una vez realizado todo este proceso y viendo desde Github, el fichero de gran tamaño, lo que se nos pide para finalizar, es realizar un script sencillo que muestre por consola _"Script tarea 1.1"_
 
@@ -114,7 +113,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
 Si lo hemos asignado correctamente, deberia ocurrir lo siguente:
 
 [x] Realizar un script que confirme la correcta ejecucción del proyecto.
-![ejecucción gif](./Media/ejecucción%20script.gif)
+![ejecucción_gif](./Media/ejecucción_script.gif)
 
 ## 4. Conclusiones
 Gracias a esta práctica, podemos tener unas nociones esenciales de como tener un proyecto de Unity enlazado a un repositorio de Github, lo cual lo permite hacer muy accesible si te tiene la conexión con el repositorio.
