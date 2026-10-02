@@ -16,21 +16,23 @@ En esta práctica de la asignatura [Fundamentos del Desarrollo de Videojuegos](h
 
 ## 2. Tareas a Realizar
 
-  - [] Crear un proyecto Unity que incluya 2 Objetos en 3D.
-  - [] Crear un repositorio Github para subir el proyecto Unity.
-  - [] Instalar la herramienta GIT LFS para el proyecto anterior.
-  - [] Realizar un script que confirme la correcta ejecucción del proyecto.
+  - [ ] Crear un proyecto Unity que incluya 2 Objetos en 3D.
+  - [ ] Crear un repositorio Github para subir el proyecto Unity.
+  - [ ] Instalar la herramienta GIT LFS para el proyecto anterior.
+  - [ ] Realizar un script que confirme la correcta ejecucción del proyecto.
 
 ## 3. Desarrollo
 
 Para comenzar, crearemos un proyecto de Unity, en el cual se incluyan 2 Objetos en 3D, para ello accederemos al Unity Editor, y crearemos un nuevo proyecto en 3D, y en cual, cuando se inicialize, crearemos dos objetos en 3D.
 
-[x] Crear un proyecto Unity que incluya 2 Objetos en 3D. 
+- [x] Crear un proyecto Unity que incluya 2 Objetos en 3D.
+
 ![proyecto_con_2_objetos](./media/proyecto_con_2_objetos.png)
 
 Luego, tenemos que crear un repositorio en Github y desde una consola en la carpeta del proyecto, debemos enlazar el proyecto local de Unity con el repositorio creado en Github.
 
-[x] Crear un repositorio Github para subir el proyecto Unity. 
+- [x] Crear un repositorio Github para subir el proyecto Unity. 
+
 ![repositorio_inicial_en_github](./media/repositorio_inicial_en_github.png)
 
 Desde este punto podemos subir los cambios que se hayan realziado en el proyecto local de Unity hacia el repositorio en la nube de Github.
@@ -84,7 +86,8 @@ git reset <ID del commit previo al commit con fichero grandes>
 
 Con esto volvemos al commit previo al que guarda los ficheros grandes, y desde ahi, realizamos el commit y el push de nuevo con los ficheros de gran tamaño ya trackeados por GIT LFS. En caso correcto, asi se debe ver cuando se realiza este proceso.
 
-[x] Instalar la herramienta GIT LFS para el proyecto anterior.
+- [x] Instalar la herramienta GIT LFS para el proyecto anterior.
+
 ![git_push_ya_no_explota](./media/git_push_ya_no_explota.png)
 
 Una vez realizado todo este proceso y viendo desde Github, el fichero de gran tamaño, lo que se nos pide para finalizar, es realizar un script sencillo que muestre por consola _"Script tarea 1.1"_
@@ -112,7 +115,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
 Si lo hemos asignado correctamente, deberia ocurrir lo siguente:
 
-[x] Realizar un script que confirme la correcta ejecucción del proyecto.
+- [x] Realizar un script que confirme la correcta ejecucción del proyecto.
+
 ![ejecucción_gif](./media/ejecucción_script.gif)
 
 ## 4. Conclusiones
